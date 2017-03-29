@@ -1,1 +1,1 @@
-# Graph Merging Experiment
+# GraphMerging
