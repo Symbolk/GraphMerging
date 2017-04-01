@@ -1,7 +1,7 @@
 GraphMerging
 ====
 
-### Based on [multiMAGNA++](http://www3.nd.edu/~cone/multiMAGNA++/ "悬停显示")
+### Based on Network Alignment Tool: [multiMAGNA++](http://www3.nd.edu/~cone/multiMAGNA++/ "悬停显示")
 ----
 
 ### Input Format: 
@@ -69,5 +69,6 @@ Check README.txt for details.
 
 ### References:
 [1]multiMAGNA++:http://www3.nd.edu/~cone/multiMAGNA++/
+
 [2]LEDA:http://www.algorithmic-solutions.info/leda_guide/graphs/leda_native_graph_fileformat.html
 
