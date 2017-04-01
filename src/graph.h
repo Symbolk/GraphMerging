@@ -51,7 +51,9 @@ struct graph {
 	struct vertex** vertex_set_by_number;
 	int n_vertices;
 	int n_edges;
-    struct edge** edge_set; // temp array for edge reading
+    // temp array for edge reading(so it cannot be used in other parts:seg fault)
+    // SOLVED : comment delete
+    struct edge** edge_set;
     struct spmat sp; // final edge set as sparse matrix yale format    
 };
 

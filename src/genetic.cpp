@@ -519,7 +519,9 @@ void run_simulation(char* graphs_file, char* init_pop_file, char* output_file_na
     int period = n_gen / freq;
 	
     // save 0th generation
+    // best alignment saved in this file
     char alignment_file[256];
+    // format the file name
     sprintf(alignment_file, "%s_%s_%d_%d_%d.txt", output_file_name, opt_str, pop_size, n_gen, 0);
     population_save_best(pop, alignment_file);
     //    population_save_best(pop, NULL);    
@@ -575,6 +577,7 @@ void population_save_best_stats(int geni, struct population* pop, char* stats_fi
     fclose(output_fd);
 }    
 
+// save the best alignment in pop in a char array
 void population_save_best(struct population* pop, char* alignment_file) {	
 	struct alignment* best_alignment = pop->alignment_set[0];
 	alignment_write(pop, best_alignment, alignment_file);

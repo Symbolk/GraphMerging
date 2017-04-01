@@ -1,0 +1,26 @@
+0	ex3_A	ex2_C	ex1_C
+1	ex3_B	ex2_B	ex1_B
+2	ex3_C	ex2_E	ex1_E
+3	ex3_D	ex2_D	ex1_D
+4	ex3_E	ex2_A	ex1_A
+5	ex3_F	-	-
+6	ex3_G	ex2_F	-
+
+0.ex3_A-1.ex3_B
+1.ex3_B-2.ex3_C
+2.ex3_C-3.ex3_D
+3.ex3_D-0.ex3_A
+3.ex3_D-4.ex3_E
+4.ex3_E-5.ex3_F
+5.ex3_F-6.ex3_G
+4.ex2_A-1.ex2_B
+1.ex2_B-0.ex2_C
+0.ex2_C-3.ex2_D
+3.ex2_D-4.ex2_A
+3.ex2_D-2.ex2_E
+2.ex2_E-6.ex2_F
+4.ex1_A-1.ex1_B
+1.ex1_B-0.ex1_C
+0.ex1_C-3.ex1_D
+3.ex1_D-4.ex1_A
+3.ex1_D-2.ex1_E
